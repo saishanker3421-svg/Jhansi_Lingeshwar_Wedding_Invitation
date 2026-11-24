@@ -7,7 +7,7 @@
 <title>Lingeshwar &amp; Jhansi | Wedding Invitation</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Noto+Serif+Telugu:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=1"><script src="js/script.js?v=1" defer></script>
+<link rel="stylesheet" href="css/style.css?v=20261125-1"><script src="js/script.js?v=20261125-1" defer></script>
 </head>
 <body>
 <div class="grain" aria-hidden="true"></div>
@@ -59,7 +59,7 @@
     <figure><img src="assets/images/moment-2.jpg" alt="Lingeshwar and Jhansi — moment two" loading="lazy"><figcaption data-i18n="momentTwo">Together in happiness</figcaption></figure>
     <figure><img src="assets/images/moment-3.jpg" alt="Lingeshwar and Jhansi — moment three" loading="lazy"><figcaption data-i18n="momentThree">A beautiful memory</figcaption></figure>
   </div>
-  <p class="moments-note" data-i18n="momentsNote">Replace these sample image paths with your own photographs in assets/images.</p>
+  <!-- <p class="moments-note" data-i18n="momentsNote">Replace these sample image paths with your own photographs in assets/images.</p> -->
 </section>
 
 <section class="section guest-upload reveal" id="guest-photos">
@@ -72,8 +72,9 @@
     <input id="guestPhotoInput" class="visually-hidden" type="file" accept="image/jpeg,image/png,image/webp" multiple>
     <p class="upload-hint" data-i18n="uploadHint">JPG, PNG or WebP · Up to 5 photos</p>
     <div id="selectedPhotos" class="selected-photos" aria-live="polite"></div>
-    <p id="uploadStatus" class="upload-status" role="status" aria-live="polite" data-i18n="uploadPending">Photo sharing will be enabled once the private upload destination is connected.</p>
-    <p class="upload-privacy" data-i18n="uploadPrivacy">Photos selected here are not sent or published yet. Your privacy matters to us.</p>
+    <button id="uploadPhotosButton" class="upload-picker" type="button" disabled>Upload Photos</button>
+    <p id="uploadStatus" class="upload-status" role="status" aria-live="polite" data-i18n="uploadPending">Select your photos and tap Upload Photos to send them to the couple.</p>
+    <p class="upload-privacy" data-i18n="uploadPrivacy">Selected photos are sent to the couple’s private Google Drive folder.</p>
   </div>
 </section>
 \n<section class="closing reveal"><div class="closing-frame"><p class="eyebrow" data-i18n="closingEyebrow">YOUR PRESENCE IS OUR GIFT</p><h2 data-i18n="closingTitle">Join us for the beginning of forever</h2><div class="closing-names">Lingeshwar <i>&amp;</i> Jhansi</div><p data-i18n="closingThanks">With love and warm regards from our families</p><div class="seal small-seal"><span>JL</span></div></div></section>
